@@ -34,14 +34,19 @@
 
     </div>
 
-    {% if showHero %}
+    {% if siteHero %}
     <section id="hero" class="container">
-        <header>
-            <h2>{{ metadata.description }}</h2>
-        </header>
-        <ul class="actions">
-            <li><a href="#" class="button">How You Can Help</a></li>
-        </ul>
+      <header>
+        <h2>{{ siteHero.title | safe }}</h2>
+      </header>
+      {% if siteHero.subtitle %}
+        <p>{{siteHero.subtitle | safe }}</p>
+      {% endif %}
+      {% if siteHero.button and siteHero.url %}
+      <ul class="actions">
+        <li><a href="{{ siteHero.url }}" class="button">{{ siteHero.button }}</a></li>
+      </ul>
+      {% endif %}
     </section>
     {% endif %}
 

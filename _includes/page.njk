@@ -1,0 +1,25 @@
+---
+layout: base.njk
+class: "no-sidebar"
+---
+<div id="page-wrapper">
+    {% include "partials/header.njk" %}
+
+    <div class="wrapper">
+        <div class="container" id="main">
+            {% if content | trim %}
+                <article id="content">
+                    <header>
+                        <h2>{{ title }}</h2>
+                        {% if description %}
+                            <p>{{ description }}</p>
+                        {% endif %}
+                    </header>
+                    {{ content | safe }}
+                </article>
+            {% endif %}
+        </div>
+    </div>
+
+    {% include "partials/footer.njk" %}
+</div>

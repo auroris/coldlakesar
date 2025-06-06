@@ -1,0 +1,9 @@
+<!-- Promo Banner -->
+<div id="promo-wrapper">
+  <section id="promo">
+    <h2>{{ promo.title | safe }}</h2>
+    {% if promo.button %}
+    <a href="{{ promo.url }}" class="button">{{ promo.button }}</a>
+    {% endif %}
+  </section>
+</div>
