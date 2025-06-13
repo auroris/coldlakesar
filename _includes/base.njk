@@ -6,6 +6,7 @@
         <title>{{ title or metadata.title }}</title>
         <meta name="description" content="{{ description or metadata.description }}" />
         <link rel="stylesheet" href="/theme/css/main.css" />
+        <link rel="stylesheet" href="/lightbox2/css/lightbox.min.css" />
     </head>
     <body class="{{ class }} is-preload">
         {{ content | safe }}
@@ -15,5 +16,6 @@
         <script src="/theme/js/breakpoints.min.js"></script>
         <script src="/theme/js/util.js"></script>
         <script src="/theme/js/main.js"></script>
+        <script src="/lightbox2/js/lightbox.min.js"></script>
     </body>
 </html>

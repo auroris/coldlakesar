@@ -16,7 +16,7 @@ class: "homepage"
                     {% for item in features.items %}
                         <section class="col-4 col-12-narrower feature">
                             <div class="image-wrapper{% if loop.first %} first{% endif %}">
-                                <a href="/images/{{ item.image }}" class="image featured">
+                                <a href="/images/{{ item.image }}" class="image featured" data-lightbox="gallery">
                                 {% image item.image, "", "745,368", "auto", false, 368, 189, "entropy" %}
                                 </a>
                             </div>

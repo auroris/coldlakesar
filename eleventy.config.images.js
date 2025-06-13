@@ -154,7 +154,7 @@ export default function(eleventyConfig) {
 
         const originalUrl = src.startsWith("/") ? src : `/${src}`;
 
-        console.log(linkOriginal ? `<a href="${originalUrl}">${imageHtml}</a>` : imageHtml);
+        //console.log(linkOriginal ? `<a href="${originalUrl}">${imageHtml}</a>` : imageHtml);
         return linkOriginal ? `<a href="${originalUrl}">${imageHtml}</a>` : imageHtml;
     }
 }

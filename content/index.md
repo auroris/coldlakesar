@@ -10,10 +10,12 @@ features:
   button: "Learn More"
   url: "/join/"
   items:
-    - image: "pic01.jpg"
-      text: "Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur vel sem sit dolor neque semper magna."
-    - image: "pic02.jpg"
-      text: "Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur vel sem sit dolor neque semper magna."
+    - image: "2017/09/csc_0124-1024x680.jpg"
+      text: "The Cold Lake Search and Rescue team enjoys a well-earned break with a barbecue and campfire lunch after a day of training in the field."
+    - image: "2017/09/dsc_0976-1024x680.jpg"
+      text: "Surrounded by bare aspen and spruce, the team builds shelters, tends a warming fire, and hones the essential skills needed to operate safely and effectively in cold-weather conditions."
+    - image: "2017/09/dsc_0140-1024x680.jpg"
+      text: "Team members practise wilderness survival and shelter construction. A bivouac demonstrates practical skills in low-visibility environments."
 #promo:
 #  title: ""
 #  button: "Breach the thresholds"

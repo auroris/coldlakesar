@@ -7,9 +7,16 @@ export default function(eleventyConfig) {
   eleventyConfig
   .addPassthroughCopy("content/theme/")
   .addPassthroughCopy("content/images/")
-  .addPassthroughCopy("content/favicon.ico");
+  .addPassthroughCopy({"content/images/logos/favicon.ico": "favicon.ico"});
   eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
-  eleventyConfig.addWatchTarget("content/**/*.{jpg,jpeg,png,gif,css}");
+  eleventyConfig.addWatchTarget("content/**/*.{jpg,jpeg,png,gif,css,svg}");
+
+  // Lightbox 2 ( https://github.com/lokesh/lightbox2 )
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/lightbox2/dist/js/lightbox.min.js": "lightbox2/js/lightbox.min.js",
+    "node_modules/lightbox2/dist/css/lightbox.min.css": "lightbox2/css/lightbox.min.css",
+    "node_modules/lightbox2/dist/images": "lightbox2/images"
+  });
 
   // Plugins
   eleventyConfig.addPlugin(imagePlugin);
