@@ -220,7 +220,7 @@ input, select, textarea {
 
         header > p {
             display: block;
-            color: #f35858;
+            /* color: #f35858; */
             padding: 0.75em 0 1em 0;
             font-size: 1.5em;
             line-height: 1.5em;
