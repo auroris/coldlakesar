@@ -106,7 +106,7 @@ input, select, textarea {
             transition: none !important;
         }
 
-    input, textarea, select {
+    input, textarea, select, button {
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: 300;
         color: #52575c;
@@ -2405,7 +2405,7 @@ input, select, textarea {
 
         /* Basic */
 
-            body, input, textarea, select {
+            body, input, textarea, select, button {
                 line-height: 1.5em;
                 font-size: 13pt;
             }
@@ -2548,7 +2548,7 @@ input, select, textarea {
 
         /* Basic */
 
-            body, input, textarea, select {
+            body, input, textarea, select, button {
                 line-height: 1.5em;
                 font-size: 14pt;
             }
@@ -2667,7 +2667,7 @@ input, select, textarea {
                 overflow-x: hidden;
             }
 
-            body, input, textarea, select {
+            body, input, textarea, select, button {
                 font-size: 13pt;
                 letter-spacing: 0;
             }
@@ -2951,7 +2951,7 @@ input, select, textarea {
 
         /* Basic */
 
-            body, input, textarea, select {
+            body, input, textarea, select, button {
                 font-size: 12pt;
                 letter-spacing: 0;
             }
